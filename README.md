@@ -4,6 +4,8 @@
 
  Use ```oneplus/sm8475``` for branch and ```realme_gt_neo5.xml``` for manifest.xml
 
+ ```repo init https://github.com/Quantom2/gt_neo5_kernel_manifest.git -b oneplus/sm8475 -m realme_gt_neo5.xml --depth=1 --no-tags```
+
 ## Sync
 ```repo sync --force-sync --optimized-fetch --no-tags --no-clone-bundle --prune -j<number>```
 
